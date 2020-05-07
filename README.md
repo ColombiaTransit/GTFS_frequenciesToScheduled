@@ -40,14 +40,6 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-El siguiente paso es generar el archivo que almacenará las llaves de acceso a aws. Este archivo debe llamarse `.env` y su contenido es el siguiente:
-```
-AWS_ACCESS_KEY_ID='PUT_HERE_YOUR_ACCESS_KEY'
-AWS_SECRET_ACCESS_KEY='PUT_HERE_YOUR_SECRET_ACCESS_KEY'
-```
-`PUT_HERE_YOUR_ACCESS_KEY` y `PUT_HERE_YOUR_SECRET_ACCESS_KEY` se obtienen de un usuario de aws (https://console.aws.amazon.com/iam/home?#/users), sección 'Credenciales de seguridad'
-
-
 ## Ejecución
 
 La ejecución es mediante consola de comando siguiendo la siguiente estructura:
