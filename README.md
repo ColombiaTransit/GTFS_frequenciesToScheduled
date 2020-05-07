@@ -49,7 +49,7 @@ python3 GTFS_frequenciesToScheduled.py \path\to\GTFS_INPUT\GTFS_INPUT.zip
 ```
 #### Prueba
 
-Clone repositorio de Github:
+Clonar repositorio de Github:
 
 ```
 git clone https://github.com/Epilef-coder/GTFS.git
