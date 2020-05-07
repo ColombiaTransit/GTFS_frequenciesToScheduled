@@ -65,17 +65,17 @@ python3 GTFS_frequenciesToScheduled.py \path\to\GTFS_INPUT\GTFS_INPUT.zip
 Ejecute test de prueba:
 
 ```
-python3 GTFS_frequenciesToScheduled.py C:\Users\your_users\GTFS\GTFS_frequenciesToScheduled\test\GTFS_Prueba.zip
+python3 GTFS_frequenciesToScheduled.py \path\to\GTFS_INPUT\GTFS_Prueba.zip
 ```
 
 Si todo sale bien debería tener un retorno como el siguiente:
 
 ```
-python3 GTFS_frequenciesToScheduled.py C:\Users\your_users\GTFS\GTFS_frequenciesToScheduled\test\GTFS_Prueba.zip
+python3 GTFS_frequenciesToScheduled.py \path\to\GTFS_INPUT\GTFS_Prueba.zip
 Generando diccionarios
 Cambiando frecuencia a itinerario
 Generando archivos
-Fin, puede encontrar su nuevo GTFS en C:\Users\your_users\GTFS\GTFS_frequenciesToScheduled\test\OUTPUT_SCHEDULED
+Fin, puede encontrar su nuevo GTFS en \path\to\GTFS_INPUT\OUTPUT_SCHEDULED
 ```
 #### Ayuda
 
