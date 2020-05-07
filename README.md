@@ -39,3 +39,19 @@ Cambiando frecuencia a itinerario
 Generando archivos
 Fin, puede encontrar su nuevo GTFS en C:\Users\your_users\GTFS\GTFS_frequenciesToScheduled\test\OUTPUT_SCHEDULED
 ```
+#### Ayuda
+
+```
+python3 GTFS_frequenciesToScheduled.py -h
+
+usage: GTFS_frequenciesToScheduled.py [-h] GTFS_INPUT
+
+Cambiar GTFS definido como frecuencia a uno definido por itinerario
+
+positional arguments:
+  GTFS_INPUT  Ruta de GTFS INPUT definido como frecuencia. e.g. \path
+              o\GTFS_INPUT.zip
+
+optional arguments:
+  -h, --help  show this help message and exit
+```
