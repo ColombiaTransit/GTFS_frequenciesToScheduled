@@ -12,7 +12,7 @@ Comando que permite cambiar un GTFS definido mediante frecuencias (existencia de
 Clonar repositorio de Github:
 
 ```
-git clone https://github.com/Epilef-coder/GTFS.git
+git clone https://github.com/Epilef-coder/GTFS_frequenciesToScheduled.git
 ```
 Cambiar el directorio de trabajo:
 
