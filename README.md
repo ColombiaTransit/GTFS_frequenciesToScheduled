@@ -12,6 +12,17 @@ Comando que permite cambiar un GTFS definido mediante frecuencias (existencia de
 
 ## Instalación 
 
+Clonar repositorio de Github:
+
+```
+git clone https://github.com/Epilef-coder/GTFS.git
+```
+Cambiar el directorio de trabajo:
+
+```
+cd GTFS\GTFS_frequenciesToScheduled
+```
+
 Se recomienda la utilización de un entorno virtual, si no tiene instalado ```virtualenv``` puede instalarlo con los siguientes comandos:
 
 ```pip install virtualenv```, ```pip3 install virtualenv``` ó ```pip3 install virtualenv --user```
@@ -49,16 +60,6 @@ python3 GTFS_frequenciesToScheduled.py \path\to\GTFS_INPUT\GTFS_INPUT.zip
 ```
 #### Prueba
 
-Clonar repositorio de Github:
-
-```
-git clone https://github.com/Epilef-coder/GTFS.git
-```
-Cambiar el directorio de trabajo:
-
-```
-cd GTFS\GTFS_frequenciesToScheduled
-```
 Ejecute test de prueba:
 
 ```
