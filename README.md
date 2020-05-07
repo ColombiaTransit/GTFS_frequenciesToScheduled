@@ -23,6 +23,8 @@ Cambiar el directorio de trabajo:
 cd GTFS
 ```
 
+### Dependencias y entorno virtual
+
 Se recomienda la utilización de un entorno virtual, si no tiene instalado ```virtualenv``` puede instalarlo con los siguientes comandos:
 
 ```pip install virtualenv```, ```pip3 install virtualenv``` ó ```pip3 install virtualenv --user```
