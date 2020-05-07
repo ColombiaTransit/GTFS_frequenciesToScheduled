@@ -1,11 +1,54 @@
 # GTFS
 Herramientas para procesar GTFS
 
-## GTFS_frequenciesToScheduled
+# GTFS_frequenciesToScheduled
 
 Comando que permite cambiar un GTFS definido mediante frecuencias (existencia de frequencies.txt) a un GTFS definido por itinerario. Aquellos trips definidos por frecuencia son repetidos en el stop_times.txt y en el trips.txt con un trip_id creado. En caso de que el GTFS definido por frecuencia contenga viajes definidos por itinerario son conservados sin cambios, solo se adicionan trips para aquellos definidos por frecuencia.
 
-### Ejecución
+## Requisitos
+
+- Python3
+- Dependencias (mirar archivo `requirements.txt`)
+
+## Instalación 
+
+Se recomienda la utilización de un entorno virtual, si no tiene instalado ```virtualenv``` puede instalarlo con los siguientes comandos:
+
+```pip install virtualenv```, ```pip3 install virtualenv``` ó ```pip3 install virtualenv --user```
+
+
+Luego el entorno virtual puede ser creado dentro de la misma carpeta.
+
+```
+virtualenv venv
+```
+
+En caso de tener python 2.7 por defecto es necesario definir que sea python3 para el entorno virtual
+
+```
+virtualenv -p python3 venv
+```
+
+
+Luego se debe activar el entorno virtual e instalar las dependencias.
+ 
+```
+# activar
+source venv/bin/activate
+ 
+# instalar dependencias
+pip install -r requirements.txt
+```
+
+El siguiente paso es generar el archivo que almacenará las llaves de acceso a aws. Este archivo debe llamarse `.env` y su contenido es el siguiente:
+```
+AWS_ACCESS_KEY_ID='PUT_HERE_YOUR_ACCESS_KEY'
+AWS_SECRET_ACCESS_KEY='PUT_HERE_YOUR_SECRET_ACCESS_KEY'
+```
+`PUT_HERE_YOUR_ACCESS_KEY` y `PUT_HERE_YOUR_SECRET_ACCESS_KEY` se obtienen de un usuario de aws (https://console.aws.amazon.com/iam/home?#/users), sección 'Credenciales de seguridad'
+
+
+## Ejecución
 
 La ejecución es mediante consola de comando siguiendo la siguiente estructura:
 
