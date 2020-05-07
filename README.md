@@ -20,7 +20,7 @@ git clone https://github.com/Epilef-coder/GTFS.git
 Cambiar el directorio de trabajo:
 
 ```
-cd GTFS\GTFS_frequenciesToScheduled
+cd GTFS
 ```
 
 Se recomienda la utilización de un entorno virtual, si no tiene instalado ```virtualenv``` puede instalarlo con los siguientes comandos:
