@@ -10,5 +10,8 @@ Comando que permite cambiar un GTFS definido mediante frecuencias (existencia de
 La ejecución es mediante consola de comando siguiendo la siguiente estructura:
 
 ```
-python3 GTFS_frequenciesToScheduled.py \path\to\GTFS_INPUT.zip
+python3 GTFS_frequenciesToScheduled.py \path\to\GTFS_INPUT\GTFS_INPUT.zip
 ```
+### Prueba
+
+Descargue archivo GTFS de prueba y guardelo en su ordenador (
