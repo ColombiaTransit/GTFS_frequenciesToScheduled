@@ -27,7 +27,7 @@ cd GTFS
 
 Se recomienda la utilización de un entorno virtual, si no tiene instalado ```virtualenv``` puede instalarlo con los siguientes comandos:
 
-```pip install virtualenv```, ```pip3 install virtualenv``` ó ```pip3 install virtualenv --user```
+```pip install virtualenv```, ```pip3 install virtualenv``` o ```pip3 install virtualenv --user```
 
 
 Luego el entorno virtual puede ser creado dentro de la misma carpeta.
