@@ -17,7 +17,7 @@ git clone https://github.com/Epilef-coder/GTFS_frequenciesToScheduled.git
 Cambiar el directorio de trabajo:
 
 ```
-cd GTFS
+cd GTFS_frequenciesToScheduled
 ```
 
 ### Dependencias y entorno virtual
