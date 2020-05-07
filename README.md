@@ -14,4 +14,28 @@ python3 GTFS_frequenciesToScheduled.py \path\to\GTFS_INPUT\GTFS_INPUT.zip
 ```
 ### Prueba
 
-Descargue archivo GTFS de prueba y guardelo en su ordenador (
+Clone repositorio de Github:
+
+```
+git clone https://github.com/Epilef-coder/GTFS.git
+```
+Cambiar el directorio de trabajo:
+
+```
+cd GTFS\GTFS_frequenciesToScheduled
+```
+Ejecute test de prueba:
+
+```
+python3 GTFS_frequenciesToScheduled.py C:\Users\your_users\GTFS\GTFS_frequenciesToScheduled\test\GTFS_Prueba.zip
+```
+
+Si todo sale bien debería tener un retorno como el siguiente:
+
+```
+python3 GTFS_frequenciesToScheduled.py C:\Users\your_users\GTFS\GTFS_frequenciesToScheduled\test\GTFS_Prueba.zip
+Generando diccionarios
+Cambiando frecuencia a itinerario
+Generando archivos
+Fin, puede encontrar su nuevo GTFS en C:\Users\your_users\GTFS\GTFS_frequenciesToScheduled\test\OUTPUT_SCHEDULED
+```
