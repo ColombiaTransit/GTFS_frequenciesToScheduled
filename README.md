@@ -6,6 +6,7 @@ Archivos necesarios del GTFS de entrada:
 
 - frequencies.txt
 - stop_times.txt
+- trips.txt
 
 ## Requisitos
 
