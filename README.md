@@ -75,6 +75,7 @@ Si todo sale bien debería tener un retorno como el siguiente:
 
 ```
 python3 GTFS_frequenciesToScheduled.py \path\to\GTFS_INPUT\GTFS_Prueba.zip
+
 Generando diccionarios
 Cambiando frecuencia a itinerario
 Generando archivos
