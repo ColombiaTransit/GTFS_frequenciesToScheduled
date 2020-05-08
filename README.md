@@ -90,3 +90,10 @@ positional arguments:
 optional arguments:
   -h, --help  show this help message and exit
 ```
+
+## Validación
+
+Si desea validar el GTFS de entrada o salida puede realizarlos a través de: 
+
+- GTFS Meta-Validator (servicio online): http://gtfsvalidator.omnimodal.io/upload
+- FeedValidator (en su ordenador): https://github.com/google/transitfeed/wiki/FeedValidator
