@@ -63,7 +63,7 @@ La ejecución es mediante consola de comando siguiendo la siguiente estructura:
 ```
 python3 GTFS_frequenciesToScheduled.py \path\to\GTFS_INPUT\GTFS_INPUT.zip
 ```
-### Prueba
+### Prueba (opcional)
 
 Ejecute test de prueba:
 
@@ -81,7 +81,7 @@ Cambiando frecuencia a itinerario
 Generando archivos
 Fin, puede encontrar su nuevo GTFS en \path\to\GTFS_INPUT\OUTPUT_SCHEDULED
 ```
-### Ayuda
+### Ayuda (opcional)
 
 ```
 python3 GTFS_frequenciesToScheduled.py -h
@@ -98,7 +98,7 @@ optional arguments:
   -h, --help  show this help message and exit
 ```
 
-## Validación
+## Validación (opcional)
 
 Si desea validar el GTFS de entrada o salida puede realizarlos a través de: 
 
