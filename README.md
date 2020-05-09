@@ -65,7 +65,7 @@ python3 GTFS_frequenciesToScheduled.py \path\to\GTFS_INPUT\GTFS_INPUT.zip
 ```
 ### Prueba (opcional)
 
-Ejecute test de prueba:
+Si desea ejecutar un test de prueba, en la carpeta test puede encontrar un GTFS y lo puede ejecutar a través de:
 
 ```
 python3 GTFS_frequenciesToScheduled.py \path\to\GTFS_INPUT\GTFS_Prueba.zip
